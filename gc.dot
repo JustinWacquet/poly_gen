@@ -541,10 +541,9 @@ digraph gc {
 		acourtin -> rconstant;
 		mribault -> nlicour;
 		toliveau -> agrimonprez;
-		mberge -> cblanchard [penwidth=2 color = "#f05050"];;
+		mberge -> cblanchard [penwidth=2 color = "#f05050"];
 		bbessier -> tpouget;
 		apoquet -> lgabet;
-		ecagnot -> hmartin;
 		lmariette -> llescalier;
 		ctorres -> mollivier;
 		mpayet -> bbrumard;
@@ -556,7 +555,7 @@ digraph gc {
 		mduffrenne -> mmelin;
 		lbranger -> yahmima;
 		acourtin -> tlavoye;
-		egenest -> hdelauney [style = dotted];
+		egenest -> hdelauney [style = dotted penwidth=2 color = "yellow"];
 		craux -> hdelauney;
 	}
 
@@ -571,22 +570,22 @@ digraph gc {
 		{ rank = "same";//2013
 			blank13 [color = "invis" fillcolor = "invis" fontcolor = "invis"];
 		}
-				{ rank = "same";//2014
+		{ rank = "same";//2014
 			blank14 [color = "invis" fillcolor = "invis" fontcolor = "invis"];
 		}
-				{ rank = "same";//2015
+		{ rank = "same";//2015
 			blank15 [color = "invis" fillcolor = "invis" fontcolor = "invis"];
 		}
-				{ rank = "same";//2016
+		{ rank = "same";//2016
 			blank16 [color = "invis" fillcolor = "invis" fontcolor = "invis"];
 		}
-				{ rank = "same";//2017
+		{ rank = "same";//2017
 			blank17 [color = "invis" fillcolor = "invis" fontcolor = "invis"];
 		}
-				{ rank = "same";//2018
+		{ rank = "same";//2018
 			blank18 [color = "invis" fillcolor = "invis" fontcolor = "invis"];
 		}
-				{ rank = "same";//2020
+		{ rank = "same";//2020
 			blank20 [color = "invis" fillcolor = "invis" fontcolor = "invis"];
 		}
 		blank13 -> blank14 [penwidth=4 color="invis"];
