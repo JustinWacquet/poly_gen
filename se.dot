@@ -492,8 +492,8 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 			vvroman [label = "VROMAN\nValentin"];
         }
 
-        cpayet -> mterrier;
-		lghazali -> ikuderski [penwidth=2 color = "yellow"];
+        cpayet -> mterrier [weight = 2.0];
+		lghazali -> ikuderski [penwidth=2 color = "yellow" weight = 3.0];
 		
     }
 
@@ -520,11 +520,11 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 			oahmedabdi [label = "AHMED ABDI\nOumoulminine"];
         }
 
-        boberson -> ebouali [penwidth=2 color = "#f05050"];
-		rduhamel -> ldufour;
-		esorais -> gcarpentier;
-		tpaumas -> cmarchon;
-		bisabelle -> ldelaby;
+        boberson -> ebouali [penwidth=2 color = "#f05050" weight = 3.0];
+		rduhamel -> ldufour [weight = 2.0];
+		esorais -> gcarpentier[weight = 3.0];
+		tpaumas -> cmarchon[weight = 2.0];
+		bisabelle -> ldelaby[weight = 2.0];
 		
     }
 ///////////////////////
@@ -596,6 +596,7 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
  			hzekri	[label ="ZEKRI\nHossam"];
  			rponche [label ="PONCHE\nRomain"];
  			lbusiere	[label ="BUSIERE\nLouis"];
+			blank2028 [color = "invis" fillcolor = "invis" fontcolor = "invis"];
  		}
  		akerhasco -> hzekri [style = "dashed"];
  		jwacquet ->  rponche [style = "dashed"];
@@ -609,14 +610,16 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 
 		{ rank="same";//2028
  			jbrugot	[label =<BRUGOT<BR/>Jules<BR/><I>Prévention / DD</I>> @BDE@ @NEAN@];
- 			endjakou [label ="NDJAKOU KEMAYOU\nEnrique Alex"];
+ 			flament	[label ="FLAMENT\n "];
+			endjakou [label ="NDJAKOU KEMAYOU\nEnrique Alex"];
  			kwadoux	[label ="WADOUX\nKylian"];
  			mkane	[label ="KANE\nSokhna Maty"];
- 			flament	[label ="FLAMENT\n "];
  		}
+		mkane -> kwadoux -> endjakou -> flament -> jbrugot [style=invis weight = 10.0];
  		rduhamel -> jbrugot [style = "dashed" penwidth=2 color = "#f05050"];
  		#nc -> lbusiere [style = "dashed"];
  		eperdrix -> flament [style = "dashed"];
+		blank2028 -> flament[weight=9.0 color="invis"];
 	}
 
 ///////////////////////
