@@ -19,14 +19,12 @@ digraph GGU {
 	subgraph cluster_2GU {
 		label = "2GU";
 		fillcolor = "#ada59c";
-
-///////////////////////
-// ---- 2022 ---- 
-///////////////////////
-
+		{ rank="same";
+			tes 			[color = "#ada59c" fillcolor = "#ada59c" fontcolor = "#ada59c"];
+		}
 		{ rank="same";
 			alexandregall	[label = "GALLOIS\nAlexandre"];
-			alexandresant	[label = <SANTENS<BR/>Alexandre<BR/><I>PULCE</I>> @PREZ@];
+			alexandresant	[label = <SANTENS<BR/>Alexandre<BR/><I>PULCE</I>> fillcolor="yellow"];
 			elodievan	[label = "VANDERMALIÈRE\nÉlodie"];
 			emelinemonz	[label = "MONZIES\nEmeline"];
 			kawtarlem	[label = "LEMALLAOUI\nKawtar"];
@@ -35,14 +33,10 @@ digraph GGU {
 			lolagaudu	[label = "GAUDUCHAU\nLola"];
 			lucastam	[label = "TAMIN\nLucas"];
 			oceanecarte	[label = "CARTERON\nOcéane"];
-			paulrive	[label = <RIVÉ<BR/>Paul<BR/><I>Respo Alternants/Com</I>> @BDE@ penwidth=4 color="deeppink"];
+			paulrive	[label = <RIVÉ<BR/>Paul<BR/><I>Respo Alternants/Com</I>> fillcolor="#f05050" penwidth=4 color="deeppink"];
 			thomasbrs	[label = "BRS\nThomas"];
 		}
-
-///////////////////////
-// ---- 2023 ---- 
-///////////////////////
-
+			tes-> thomasbrs [penwidth=2 color = "invis"];
 		{ rank="same";
 			fannybroc	[label = "BROCOT\nFanny"];
 			imanebounou	[label = "BOUNOU\nImane"];
@@ -50,7 +44,7 @@ digraph GGU {
 			kenzabad	[label = "BADREDDINE\nKenza"];
 			leilalogi	[label = "LOGIÉ\nLeïla"];
 			opheliecoup	[label = "COUPÉ\nOphélie" penwidth=4 color="green"];
-			samuelbienv	[label = <BIENVENU<BR/>Samuel<BR/><I>Respo Alternants</I>> @BDE@ penwidth=4 color="purple"];
+			samuelbienv	[label = <BIENVENU<BR/>Samuel<BR/><I>Respo Alternants</I>> fillcolor="#f05050" penwidth=4 color="purple"];
 			youssraelmou	[label = "EL MOUSSAOUI\nYoussra"];
 		}
 		alexandregall -> ineslazre;
@@ -66,16 +60,12 @@ digraph GGU {
 		paulrive -> samuelbienv [penwidth=2 color = "#f05050"];
 		thomasbrs -> leilalogi;
 
-///////////////////////
-// ---- 2024 ---- 
-///////////////////////
-
 		{ rank="same";
 			albinneu	[label = <<table border="0">
 							<tr><td border="0">NEUTS<BR/>Albin</td></tr>
 							<tr><td border="4" color="deeppink"><I>Respo PeiP</I></td></tr>
 							<tr><td border="4" color="yellow"><I>Respo Alternants</I></td></tr>
-						</table>> @BDE@];
+						</table>> fillcolor="#f05050"];
 			charlottefor	[label = "FORMINI\nCharlotte"];
 			emilieguer	[label = "GUERIN\nEmilie" penwidth=4 color="orange"];
 			jeanyvescarr	[label = "CARRIÈRE\nJean Yves"];
@@ -85,7 +75,7 @@ digraph GGU {
 			louishetr	[label = "HETROY\nLouis"];
 			luciejougl	[label = "JOUGLET\nLucie"];
 			lukasalb	[label = "ALBERT\nLukas"];
-			nicolaslew	[label = <LEWILLE<BR/>Nicolas<BR/><I>Respo Alternants</I>> penwidth=4 @BDE@ color="purple"];
+			nicolaslew	[label = <LEWILLE<BR/>Nicolas<BR/><I>Respo Alternants</I>> penwidth=4 fillcolor="#f05050" color="purple"];
 			paullebo	[label = "LE BOT\nPaul"];
 			titouancheva	[label = "CHEVALLERAU\nTitouan"];
 		}
@@ -103,20 +93,15 @@ digraph GGU {
 		samuelbienv -> albinneu [penwidth=2 color = "#f05050"];
 		samuelbienv -> louishetr;
 		youssraelmou -> lukasalb;
-
-///////////////////////
-// ---- 2025 ---- 
-///////////////////////
-
 		{ rank = "same";
-			antoinesim [label = <SIMON<BR/>Antoine<BR/><I>Respo Communication</I>> @BDE@ penwidth=4 color="pink"];
+			antoinesim [label = <SIMON<BR/>Antoine<BR/><I>Respo Communication</I>> fillcolor="#f05050" penwidth=4 color="pink"];
 			lilouflo   [label = "FLORENT\nLilou"];
 			louiskerv  [label = "KERVELLA\nLouis"];
 			julestrip  [label = "TRIPLET\nJules"];
 			gaiapaci   [label = "PACITTI\nGaïa"];
 			romainlop  [label = "LOPES GONCALVES\nRomain"];
 			maddyporc  [label = "PORCHER\nMaddy"];
-			elisaquen  [label = <QUENOUAULT<BR/>Elisa<BR/><I>Respo Alternants</I>> @BDE@ penwidth=4 color="pink"];
+			elisaquen  [label = <QUENOUAULT<BR/>Elisa<BR/><I>Respo Alternants</I>> fillcolor="#f05050" penwidth=4 color="pink"];
 			etiennedel [label = "DELACHE\nEtienne"];
 			simonverr  [label = "VERRON\nSimon"];
 			arthurach  [label = "ACHARD\nArthur"];
@@ -124,7 +109,7 @@ digraph GGU {
 			ameliegra  [label = "GRANDMOTTET\nAmélie"];
 			laurawan   [label = "WANG\nLaura"];
 			clementmar [label = "MARIOT\nClément"];
-			loucandice [label = <FERRAND<BR/>Lou-Candice<BR/><I>Pompoms</I>> @PREZ@];
+			loucandice [label = <FERRAND<BR/>Lou-Candice<BR/><I>Pompoms</I>> fillcolor="yellow"];
 			phillippela [label = "LARGUIER\nPhilippe"];
 			leobernae    [label = "BERNAERT\nLéo"];
 			ldebast  	[label = "DEBAST\nLouison"];
@@ -149,19 +134,14 @@ digraph GGU {
 			titouancheva -> loucandice;
 			lukasalb -> phillippela;
         	lukasalb -> leobernae;
-
-///////////////////////
-// ---- 2026 ---- 
-///////////////////////
-
 		{ rank = "same";
 			pledoeuf  	[label = "LEDOEUF\nPierre-Louis"];
-			egautier 	[label = <GAUTIER<BR/>Emilie<BR/><I>Respo Alternants</I>> @BDE@ penwidth=4 color="green"];
+			egautier 	[label = <GAUTIER<BR/>Emilie<BR/><I>Respo Alternants</I>> fillcolor="#f05050" penwidth=4 color="green"];
 			cviella  	[label = "VIELLA\nCharlotte"];
 			mgeorges 	[label = "GEORGES\nMathis"];
 			vwijsman	[label = "WIJSMAN\nVictor"];
 			lcoelho    	[label = "COELHO\nLisa-Marie"];
-			mgabard 	[label = <GABARD<BR/>Marie<BR/><I>Respo Inté/Event</I>> @BDE@ penwidth=4 color="green"];
+			mgabard 	[label = <GABARD<BR/>Marie<BR/><I>Respo Inté/Event</I>> fillcolor="#f05050" penwidth=4 color="green"];
 		}
 		antoinesim->pledoeuf;
 		lilouflo->ldebast;
@@ -178,22 +158,16 @@ digraph GGU {
 		phillippela->azarktouni;
 		gauthierpl->azarktouni;
 		leobernae->egautier;
-
-///////////////////////
-// ---- 2027 ---- 
-///////////////////////
-
-		{ rank = "same";
+		{ rank = "same";//2027
 			aacunapi  	[label = "ACUNA PINTOS\nAgustin"];
-			onedey 	[label = <NEDEY<BR/>Oscar<BR/><I>Respo Alternants et International</I>>, @BDE@, penwidth=4, color="yellow"];
+			onedey 	[label = <NEDEY<BR/>Oscar<BR/><I>Respo Alternants et International</I>>, fillcolor="#f05050", penwidth=4, color="yellow"];
 			mdelarue 	[label = <DELARUE<BR/>Maëlle<BR/>>, penwidth=4, color="orange"];
 			jtrichar  	[label = "TRICHARD\nJade"];
 			pbreuvar 	[label = "BREUVART\nPauline"];
 			lsaboy	[label = "SABOY\nLaurie"];
 			lnoblanc    	[label = "NOBLANC\nLouise"];
 			hheyd    	[label = "HEYD\nHugo"];
-			nwannhen 	[label = <WANNHEHAIN<BR/>Noé<BR/><I>Respo Inté/Event</I>>, @BDE@, penwidth=4, color="orange"];
-			tfaucon		[label = "FAUCON\nTitouan"];
+			nwannhen 	[label = <WANNHEHAIN<BR/>Noé<BR/><I>Respo Inté/Event</I>>, fillcolor="#f05050", penwidth=4, color="orange"];
 		}
 		egautier->aacunapi;
 		egautier->jtrichar;
@@ -204,47 +178,21 @@ digraph GGU {
 		vwijsman->lnoblanc;
 		mgabard->nwannhen [penwidth=2 color = "#f05050"];
 		azarktouni->nwannhen;
+		laurawan->lcoelho;
 		mgeorges->hheyd;
 
-///////////////////////
-// ---- 2028 ---- 
-///////////////////////
-
         { rank = "same";
-			mleon	  	[label = "LEON\nMaurine"];
-			tlesaffre  	[label = "LESAFFRE\nTom"];
-			ppuchois  	[label = "PUCHOIS\nPaul"];
-			bpoirier  	[label = "POIRIER\nBéatrice"];
-			mbonnet  	[label = "BONNET\nMathieu"];
-			ssmara  	[label = "SMARA\nSana"];
-			rgrioche  	[label = "GRIOCHE\nRomane"];
+			invis1 [style=invis];
         }
-		mgeorges -> mleon;
-		tfaucon -> tlesaffre;
-		aacunapi -> ppuchois;
-		lsaboy -> bpoirier;
-		lnoblanc -> mbonnet;
-		jtrichar -> ssmara;
-		cviella -> rgrioche;
 	}
-
-///////////////////////
-// ---- PROMOS ---- 
-///////////////////////
-
 	subgraph cluster_promos {
 		label = "Promos";
 		penwidth = 0;
 		color = none;
 		node [shape = none];
 
-		"2022" -> "2023" -> "2024" -> "2025" -> "2026" -> "2027" -> "2028";
+		"2021" -> "2022" -> "2023" -> "2024" -> "2025" -> "2026" -> "2027";
 	}
-
-///////////////////////
-// ---- LEGENDE ---- 
-///////////////////////
-
 	subgraph cluster_legende {
 		label = "Légende";
 		fillcolor = none;
@@ -252,8 +200,8 @@ digraph GGU {
 		leg_parrain	[label = "Parrain"];
 		leg_fillot	[label = "Fillot"];
 		leg_fillotadop	[label = "Fillot Adoptif"];
-		leg_BDE		[label = <Membre BDE<BR/><I>Poste</I>> @BDE@];
-		leg_prez	[label = <Président de club<BR/><I>Club</I>> @PREZ@];
+		leg_BDE		[label = <Membre BDE<BR/><I>Poste</I>> fillcolor="#f05050"];
+		leg_prez	[label = <Président de club<BR/><I>Club</I>> fillcolor="yellow"];
 		leg_listeux	[label = "Listeux\n\n(Couleur du tour\n = couleur de la liste)" penwidth=4 color="red"];
 
 		leg_parrain -> leg_fillot;

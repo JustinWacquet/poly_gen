@@ -21,51 +21,35 @@ digraph se {
 		label = "SE";
 		fillcolor = "#F89A9A";
 
-///////////////////////
-// ---- 2017 ---- 
-///////////////////////
-
 		{ rank = "same";
 			valentinbeau	[label = "BEAUCHAMP\nValentin"];
 		}
-
-///////////////////////
-// ---- 2018 ---- 
-///////////////////////
 
 		{ rank = "same";
 			dorian		[label = "DORIAN\nAlexis"];
 		}
 		valentinbeau -> dorian;
 
-///////////////////////
-// ---- 2020 ---- 
-///////////////////////
-
 		{ rank = "same";
 			clementfroi	[label = "FROISSARD\nClément"];
 			davidreg	[label = "REGNIER\nDavid"];
-			flora		[label = <DZIEDZIC<BR/>Flora<BR/><I>Respo Clubs</I>> @BDE@ penwidth=4 color="purple"];
-			francois	[label = <BRASSART<BR/>François<BR/><I>Respo Com</I>> @BDE@ penwidth=4 color="purple"];
+			flora		[label = <DZIEDZIC<BR/>Flora<BR/><I>Respo Clubs</I>> fillcolor="#f05050" penwidth=4 color="purple"];
+			francois	[label = <BRASSART<BR/>François<BR/><I>Respo Com</I>> fillcolor="#f05050" penwidth=4 color="purple"];
 			martinmic	[label = "MICHEL\nMartin"];
 		}
 		dorian -> clementfroi;
 
-///////////////////////
-// ---- 2021 ---- 
-///////////////////////
-
 		{ rank = "same";
-			corto 		[label = <CALLERISA<BR/>Corto<BR/><I>Circotech</I>> @PREZ@];
+			corto 		[label = <CALLERISA<BR/>Corto<BR/><I>Circotech</I>> fillcolor="yellow"];
 			cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fillcolor="#f05050:yellow" penwidth=4 color="blue"];
 			dam		[label = "TILLAUX\nDamien"];
-			evan		[label = <GURY<BR/>Evan<BR/><I>Le 10^5</I>> @PREZ@];
-			eymeric		[label = <CAPRONNIER<BR/>Eymeric<BR/><I>Inté/Events</I>> @BDE@ penwidth=4 color="blue"];
+			evan		[label = <GURY<BR/>Evan<BR/><I>Le 10^5</I>> fillcolor="yellow"];
+			eymeric		[label = <CAPRONNIER<BR/>Eymeric<BR/><I>Inté/Events</I>> fillcolor="#f05050" penwidth=4 color="blue"];
 			jeremyhass	[label = "HASSENFORDER\nJérémie"];
 			julienall	[label = "ALLART\nJulien"];
-			lukasfauc	[label = <FAUCHOIS<BR/>Lukas<BR/><I>Sono</I>> @PREZ@];
+			lukasfauc	[label = <FAUCHOIS<BR/>Lukas<BR/><I>Sono</I>> fillcolor="yellow"];
 			maximeclau	[label = "CLAUDEL\nMaxime"];
-			pierregau	[label = <GAUTREAU<BR/>Pierre<BR/><I>Secrétaire</I>> @BDE@ penwidth=4 color="orange"];
+			pierregau	[label = <GAUTREAU<BR/>Pierre<BR/><I>Secrétaire</I>> fillcolor="#f05050" penwidth=4 color="orange"];
 			quentinnor	[label = "NORMAND\nQuentin"];
 			richard		[label = "SIMONIN\nRichard"];
 			rouille		[label = "ROUILLÉ\nGuillaume"];
@@ -80,22 +64,18 @@ digraph se {
 		flora -> evan;
 		martinmic -> rouille;
 
-///////////////////////
-// ---- 2022 ---- 
-///////////////////////
-cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fillcolor="#f05050:yellow" penwidth=4 color="blue"];
 		{ rank = "same";
-			andrei		[label = <FLOREA<BR/>Andrei<BR/><I>Respo Clubs</I>> @BDE@ penwidth=4 color="deeppink"];
+			andrei		[label = <FLOREA<BR/>Andrei<BR/><I>Respo Clubs</I>> fillcolor="#f05050" penwidth=4 color="deeppink"];
 			arthurret	[label = "RETAILLAUD\nArthur"];
 			arthurverk	[label = "VERKAEMST\nArthur"];
-			clementine	[label = <DHESSE<BR/>Clémentine<BR/><I>Polygames</I>> @PREZ@];
+			clementine	[label = <DHESSE<BR/>Clémentine<BR/><I>Polygames</I>> fillcolor="yellow"];
 			
 			aviran		[label = "TETIA\nAviran"];
 			basile		[label = "CAQUOT\nBasile" penwidth=4 color="white"];
 			boris		[label = "JACQUOT\nBoris" penwidth=4 color="white"];
 			camillevin 	[label = "VINGÈRE\nCamille"];
-			axelchem	[label = <CHEMIN<BR/>Axel<BR/><I>Club Info</I>> @PREZ@];
-			coline		[label = <LEMOINE<BR/>Coline<BR/><I>Présidente</I>> @BDE@ penwidth=4 color="deeppink"];
+			axelchem	[label = <CHEMIN<BR/>Axel<BR/><I>Club Info</I>> fillcolor="yellow"];
+			coline		[label = <LEMOINE<BR/>Coline<BR/><I>Présidente</I>> fillcolor="#f05050" penwidth=4 color="deeppink"];
 			deudeuch	[label = "DECHERF\nPierre"];
 			djibril 	[label = "DIAW\nDjibril"];
 			enzoder		[label = "DERISBOURG\nEnzo"];
@@ -108,15 +88,15 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 			juliendel	[label = "DELABRE\nJulien"];
 			laurie		[label = "MALARET\nLaurie"];
 			louiswad	[label = "WADBLED\nLouis"];
-			marc		[label = <DRIEUX<BR/>Marc<BR/><I>Le Gymnase</I>> @PREZ@ penwidth=4 color="white"];
+			marc		[label = <DRIEUX<BR/>Marc<BR/><I>Le Gymnase</I>> fillcolor="yellow" penwidth=4 color="white"];
 			mel 		[label = "BAUMGARTNER\nMel"];
 			merwane		[label = "ZIANI BEY\nMerwane"];
 			sana		[label = "\nSana"];
 			siraj		[label = "\nSiraj"];
 			suzanne		[label = "DUCROT\nSuzanne"];
-			theotim		[label = <RAGUET<BR/>Theotim<BR/><I>PaF!</I>> @PREZ@];
+			theotim		[label = <RAGUET<BR/>Theotim<BR/><I>PaF!</I>> fillcolor="yellow"];
 			thomaszem	[label = "ZEMMOURI\nThomas"];
-			titouan		[label = <AZIMZADEH<BR/>Titouan<BR/><I>L'Instru</I>> @PREZ@];
+			titouan		[label = <AZIMZADEH<BR/>Titouan<BR/><I>L'Instru</I>> fillcolor="yellow"];
 			zahra		[label = "BELLORIBI\nZahra"];
 		}
 		valeriane -> clementine;
@@ -141,14 +121,11 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 		simonl -> cremaschi [style = "dotted"];
 		theoevrard -> coline;
 		
-///////////////////////
-// ---- 2023 ---- 
-///////////////////////
 
 		{ rank = "same";
 			abdelillah	[label = "EL KHOTRI\nAbdellilah"];
 			alexandrerou	[label = "ROUSSEL\nAlexandre"];
-			alixduf		[label = <DUFOUR<BR/>Alix<BR/><I>Polygames</I>> @PREZ@];
+			alixduf		[label = <DUFOUR<BR/>Alix<BR/><I>Polygames</I>> fillcolor="yellow"];
 			antoinebross	[label = "BROSSAS\nAntoine"];
 			arthurvain	[label = "VAIN\nArthur"];
 			aymanmoumm	[label = "MOUMMADI\nAyman"];
@@ -156,34 +133,34 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 			baptisteblack	[label = "BLACK\nBaptiste"];
 			clementk	[label = "KOPERSKI\nClément"];
 			corentingie	[label = "GIELIEN\nCorentin"];
-			elizabeth	[label = <CHAUVEAU<BR/>Elizabeth<BR/><I>Le Studio</I>> @PREZ@ penwidth=4 color="green"];
+			elizabeth	[label = <CHAUVEAU<BR/>Elizabeth<BR/><I>Le Studio</I>> fillcolor="yellow" penwidth=4 color="green"];
 			flaviehen	[label = "HENRY\nFlavie"];
 			florianderl	[label = "DERLIQUE\nFlorian"];
 			florianprin	[label = "PRIN\nFlorian"];
 			heloise		[label = "LACROIX\nHéloise"];
 			ilyass		[label = "MEHARZI\nIlyass"];
 			janet		[label = "MAZOUZI\nJanet"];
-			juliendum	[label = <DUMON<BR/>Julien<BR/><I>PULCE</I>> @PREZ@];
+			juliendum	[label = <DUMON<BR/>Julien<BR/><I>PULCE</I>> fillcolor="yellow"];
 			leopoum		[label = "POUMAER\nLéo" penwidth=4 color="green"];
 			louise		[label = <MAES<BR/>Louise<BR/><I>Respo Com<BR/>BDA</I>> fillcolor="#f05050:yellow" penwidth=4 color="purple"];
 			lucasposto	[label = "POSTOLLEC\nLucas"];
 			mateopourr	[label = "POURRIER\nMatéo"];
 			maxencelaur	[label = "LAURENT\nMaxence"];
-			maximebal	[label = <BALBASTRE<BR/>Maxime<BR/><I>Circotech</I>> @PREZ@];
+			maximebal	[label = <BALBASTRE<BR/>Maxime<BR/><I>Circotech</I>> fillcolor="yellow"];
 			matthieupap	[label = "PAPASEIT\nMatthieu"];
 			niels		[label = "GODBERT\nNiels" penwidth=4 color="green"];
 			omarsif		[label = "SIFA\nOmar"];
-			paulamor	[label = <AMOROS<BR/>Paul<BR/><I>La Radio</I>> @PREZ@ penwidth=4 color="green"];
+			paulamor	[label = <AMOROS<BR/>Paul<BR/><I>La Radio</I>> fillcolor="yellow" penwidth=4 color="green"];
 			quentinhur	[label = "HUREL\nQuentin"];
 			rayan		[label = "MECHIK\nRayan"];
-			remi 		[label = <BRACHOT<BR/>Remi<BR/><I>Inté/Events</I>> @BDE@ penwidth=4 color="purple"];
+			remi 		[label = <BRACHOT<BR/>Remi<BR/><I>Inté/Events</I>> fillcolor="#f05050" penwidth=4 color="purple"];
 			ronan		[label = "SING\nRonan"];
-			simontuto	[label = <DOUTEAU<BR/>Simon<BR/><I>Respo Clubs</I>> @BDE@ penwidth=4 color="purple"];
+			simontuto	[label = <DOUTEAU<BR/>Simon<BR/><I>Respo Clubs</I>> fillcolor="#f05050" penwidth=4 color="purple"];
 			theo		[label = "LEFEBVRE\nThéo"];
-			thibaultmey	[label = <MEYNIER<BR/>Thibault<BR/><I>Le Club Info</I>> @PREZ@];
+			thibaultmey	[label = <MEYNIER<BR/>Thibault<BR/><I>Le Club Info</I>> fillcolor="yellow"];
 			thibaultvol	[label = "VOLLERIN\nThibault" penwidth=4 color="orange"];
 			tomcarr		[label = "CARRÈRE\nTom"];
-			tristanpay	[label = <PAYEN<BR/>Tristan<BR/><I>Sono</I>> @PREZ@];
+			tristanpay	[label = <PAYEN<BR/>Tristan<BR/><I>Sono</I>> fillcolor="yellow"];
 			valentindos	[label = "DOSIAS\nValentin"];
 			victor		[label = "BLONDELLE\nVictor"];
 			yanislacr	[label = "LACROIX\nYanis"];
@@ -232,21 +209,17 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 		zahra -> aymanmoumm;
 		lukasfauc -> lucasposto;
 
-///////////////////////
-// ---- 2024 ---- 
-///////////////////////
-
 		{ rank = "same";
 			
-			albinmout	[label = <MOUTON<BR/>Albin<BR/><I>Robotech</I>> @PREZ@];
+			albinmout	[label = <MOUTON<BR/>Albin<BR/><I>Robotech</I>> fillcolor="yellow"];
 			
 			antoineverm	[label = "VERMESSE\nAntoine"];
 			antoineverr	[label = "VERIN\nAntoine"];
-			antoinevion	[label = <VION<BR/>Antoine<BR/><I>Secrétaire</I>> @BDE@ penwidth=4 color="yellow"];
-			arthurdoll	[label = <DOLLET<BR/>Arthur<BR/><I>Respo Com</I>> @BDE@ penwidth=4 color="yellow"];
+			antoinevion	[label = <VION<BR/>Antoine<BR/><I>Secrétaire</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
+			arthurdoll	[label = <DOLLET<BR/>Arthur<BR/><I>Respo Com</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
 			benjaminnguy	[label = "NGUYEN\nBenjamin"];
 			chloelem	[label = "LEMAIRE\nChloé"];
-			dannroden	[label = <RODENBURG<BR/>Dann<BR/><I>Le Gymnase</I>> @PREZ@];
+			dannroden	[label = <RODENBURG<BR/>Dann<BR/><I>Le Gymnase</I>> fillcolor="yellow"];
 			eliassim	[label = "SIMON\nElias"];
 			estelle		[label = "GODARD\nEstelle"];
 			jeanne		[label = "DELCOURT\nJeanne"];
@@ -254,7 +227,7 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 			gabrieltho	[label = "THOMAS\nGabriel"];
 			gregoirechi	[label = "CHICHERY\nGrégoire" penwidth=4 color="orange"];
 			hugoleg		[label = "LEGENDRE\nHugo" penwidth=4 color="orange"];
-			jason 		[label = <DELANNOY<BR/>Jason<BR/><I>Robotech</I>> @PREZ@];
+			jason 		[label = <DELANNOY<BR/>Jason<BR/><I>Robotech</I>> fillcolor="yellow"];
             vdeffrennes		[label = "DEFFRENNES\nVianney"];
 			leamor		[label = "MOREL\nLéa"];
 			louisgla	[label = "GLANDIERES\nLouis"];
@@ -265,8 +238,8 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 			quentin 	[label = "ROUILLÉ\nQuentin"];
 			romamainmar	[label = "MARIE\nRomain"];
 			romainpou	[label = "POUILLARD\nRomain" penwidth=4 color="orange"];
-			salim		[label = <EL MARIKY<BR/>Salim<BR/><I>PULCE</I>> @PREZ@];
-			servan		[label = <DELAHAIES<BR/>Servan<BR/><I>Le Studio</I>> @PREZ@];
+			salim		[label = <EL MARIKY<BR/>Salim<BR/><I>PULCE</I>> fillcolor="yellow"];
+			servan		[label = <DELAHAIES<BR/>Servan<BR/><I>Le Studio</I>> fillcolor="yellow"];
 			thomasdhau	[label = "DAUSSY\nThomas"];
 			timotebre	[label = "BRENIER\nTimothé"];
 			will		[label = "\nWill"];
@@ -304,14 +277,10 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 		alexandrerou -> lbultel;
 
 		//remi -> portal2IA [style="dashed" penwidth=2 color="#f05050"];
-
-///////////////////////
-// ---- 2025 ---- 
-///////////////////////
-
+	
     { rank = "same";
                 
-				adriencont	[label = <GONTIER<BR/>Adrien<BR/><I>10^5(2022)</I>> @PREZ@];
+				adriencont	[label = <GONTIER<BR/>Adrien<BR/><I>10^5(2022)</I>> fillcolor="yellow"];
                 julesperr	[label = "PERRIER\nJules" penwidth=4 color="yellow"];
                 judith		[label = "JAULIN\nJudith" penwidth=4 color="orange"];
                 raissandri	[label = "ANDRIANIRINTSOA\nHeriniaina Raïssa";]
@@ -321,7 +290,7 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
                 cboulard	[label = "BOULARD\nClément"];
                 gbura	[label = "BURA\nGuillaume" penwidth=4 color="#2128f5"];
                 ccariat	[label = "CARIAT\nCamille"];
-                dcassez	[label =<CASSEZ<BR/>Donovan<BR/><I>Circotech</I>> @PREZ@];
+                dcassez	[label =<CASSEZ<BR/>Donovan<BR/><I>Circotech</I>> fillcolor="yellow"];
                 rcatoir		[label = "CATOIR\nRémi"];
                 ncazin	[label = "CAZIN\nNémo"];
                 acegarra	[label = "CEGARRA\nAntoine"];
@@ -332,7 +301,7 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
                 tduyck		[label = "DUYCK\nThibault"];
                 lgambart	[label = "GAMBART\nLouis"];
                 imlika 	[label = "MLIKA\nImen"];
-                mjeanprivat	[label = <JEAN-PRIVAT<BR/>Mathys<BR/><I>Respo DD/Prev</I>> @BDE@ penwidth=4 color="#FC00B2"];
+                mjeanprivat	[label = <JEAN-PRIVAT<BR/>Mathys<BR/><I>Respo DD/Prev</I>> fillcolor="#f05050" penwidth=4 color="#FC00B2"];
                 cmaquet	[label = "MAQUET\nCelestia"];
                 ymoslah	[label = "MOSLAH\nYasmine"];
                 mnormand	[label = "NORMAND\nMarion"];
@@ -382,29 +351,25 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
                 benjaminnguy->wzidane;
                 lbultel->hzrouki;
                 
-///////////////////////
-// ---- 2026 ---- 
-///////////////////////
-
     {rank = "same";
 				pcasimiri  [label = "CASIMIRI\nPierre"];
 				vpiroux	   [label = "PIROUX\nValentin"];
 				nnait	   [label = "NAIT-SEGHIR\nNaël"];
-				rginer	   [label = <GINER<BR/>Remi<BR/><I>Instru</I>> @PREZ@];
+				rginer	   [label = <GINER<BR/>Remi<BR/><I>Instru</I>> fillcolor="yellow"];
 				bmoussa	   [label = "MOUSSA\nBilâl"];
 				rboursault [label = "BOURSAULT\nRémi"];
 				sdeparis   [label = "DEPARIS\nSarah"];
-				mcam       [label =<CAM<BR/>Maël<BR/><I>10^5</I>> penwidth=4 color="purple" @PREZ@];
+				mcam       [label =<CAM<BR/>Maël<BR/><I>10^5</I>> penwidth=4 color="purple" fillcolor="yellow"];
 				jwacquet   [label = "WACQUET\nJustin"];
 				yberrada   [label = "BERRADA\nYassine"];
 				vdetrez    [label = "DETREZ\nVictorien"];
 				rbohdan    [label = "BOHDAN-ZAJAC\nRoman"];
-				akerhasco  [label = <KERHASCOËT<BR/>Arthur<BR/><I>Respo Inté/Events</I>> @BDE@ penwidth=4 color="green"]; // il a redoublé mais ça fout la merde si je le mets sur la bonne année
+				akerhasco  [label = <KERHASCOËT<BR/>Arthur<BR/><I>Respo Inté/Events</I>> fillcolor="#f05050" penwidth=4 color="green"]; // il a redoublé mais ça fout la merde si je le mets sur la bonne année
 				itepeli    [label = "TEPELI\nIbrahim"];
 				adjadja    [label = "DJADJA\nAugustin"];
 				swillekens [label = "WILLEKENS\nSyprien"];
 				azongo	   [label = "ZONGO\nAbdel Buchy"];
-				bcart	   [label = <CART<BR/>Benjamin<BR/><I>Robotech</I>> @PREZ@];	
+				bcart	   [label = <CART<BR/>Benjamin<BR/><I>Robotech</I>> fillcolor="yellow"];	
 				}
 				rcatoir->bcart ;
 				albinmout->bcart [style=dashed];
@@ -427,27 +392,23 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 				julesperr->swillekens;
 				romainpou->swillekens;
 				
-///////////////////////
-// ---- 2027 ---- 
-///////////////////////
 
 	{rank = "same";
 				apillot 	[label = "PILLOT\nAnthony"];
 				ahoudusse  [label = "HOUDUSSE\nAgathe"];
 				tduwez	   	[label = "DUWEZ\nThibault"];
-				lghazali	[label = <GHAZALI<BR/>Lilia<BR/><I>Le Studio</I>> @PREZ@];
+				lghazali	[label = <GHAZALI<BR/>Lilia<BR/><I>Le Studio</I>> fillcolor="yellow"];
 				tmerien	   	[label = "MERIEN\nTom"];
-				rduhamel  	[label = <DUHAMEL<BR/>Raphaël<BR/><I>DDPS</I>> @BDE@ penwidth=4 color="yellow"];
+				rduhamel  	[label = <DUHAMEL<BR/>Raphaël<BR/><I>DDPS</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
 				tpaumas	   	[label = "PAUMAS\nThibaut"];
 				mhamidouche	[label = "HAMIDOUCHE\nMilane"];
-				boberson  	[label = <OBERSON<BR/>Basil<BR/><I>Secrétaire</I>> @BDE@ penwidth=4 color="Orange"];
+				boberson  	[label = <OBERSON<BR/>Basil<BR/><I>Secrétaire</I>> fillcolor="#f05050" penwidth=4 color="Orange"];
 				mroy	   	[label = "ROY\nMax"];
-				esorais		[label = <SORAIS<BR/>Eric<BR/><I>PAF!</I>> @PREZ@ penwidth=4 color="orange"];
-				cpayet	    [label = <PAYET<BR/>Cédric<BR/><I>Robotech</I>> @PREZ@];
-				bisabelle   [label = <BAVUGILIJE<BR/>Isabelle<BR/><I>Polydance</I>> @PREZ@ penwidth=4 color="purple"];
-				cbaron 		[label = <BARON<BR/>Clément<BR/><I>Sono</I>> @PREZ@];
+				esorais		[label = <SORAIS<BR/>Eric<BR/><I>PAF!</I>> fillcolor="yellow" penwidth=4 color="orange"];
+				cpayet	    [label = <PAYET<BR/>Cédric<BR/><I>Robotech</I>> fillcolor="yellow"];
+				bisabelle   [label = <BAVUGILIJE<BR/>Isabelle<BR/><I>Polydance</I>> fillcolor="yellow" penwidth=4 color="purple"];
+				cbaron 		[label = <BARON<BR/>Clément<BR/><I>Sono</I>> fillcolor="yellow"];
 				znazi		[label = "NACINOVICH\nZacharie"];
-				eperdrix [label = "PERDRIX\nEdouard"]
 				}
 				bcart->tduwez;
 				jwacquet->apillot;
@@ -461,79 +422,13 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 				mcam->boberson;
 				nnait->mroy;
 				yberrada->cpayet;
-				bisabelle->esorais;					
+				bisabelle->esorais;
+				
+							
     }
-
-///////////////////////
-// ---- IOT ---- 
-///////////////////////
-///////////////////////
-// ---- 2028 ---- 
-///////////////////////
-	subgraph cluster_IOT {
-        label="IOT";
-        fillcolor = "#ff5d5d";
-
-        { rank = "same";
-            mterrier [label = <TERRIER<BR/>Moïse<BR/><I>Robotech(VP)</I>>];
-			bjoumier [label = "JOUMIER\nBaptiste"];
-			achaoui [label = "Chaoui kouraichi\nAli"];
-			gsailly [label = "SAILLY\nGrégoire"];
-			ikuderski [label = <KUDERSKI<BR/>Illyan<BR/><I>Le Studio</I>> @PREZ@];
-			etardieux [label = "TARDIEUX\nEliott"];
-			tnana [label = "NANA\nThales"];
-			saboucade [label = "ABOUCADE\nSalwa"];
-			jlefranc [label = "LEFRANC\nJulien"];
-			fmohamded [label = "MOHAMED\nFedi"];
-			welbekraoui [label = "EL BEKRAOUI\nWalid"];
-			koutaleb [label = "OUTALEB\nKaïs"];
-			ndelin [label = "DELIN\nNoé"];
-			jngalamou [label = "NGALAMOU YINIPI\nJospen"];
-			vvroman [label = "VROMAN\nValentin"];
-        }
-
-        cpayet -> mterrier [weight = 2.0];
-		lghazali -> ikuderski [penwidth=2 color = "yellow" weight = 3.0];
-		
-    }
-
-///////////////////////
-// ---- EIF ---- 
-///////////////////////
-///////////////////////
-// ---- 2028 ---- 
-///////////////////////
-
-	subgraph cluster_EIF {
-        label="EIF";
-        fillcolor = "#ff7843";
-
-        { rank = "same";
-            ebouali [label = <BOUALI<BR/>Elie<BR/><I>Président</I>> @BDE@ @NEAN@];
-			ldufour [label = "DUFOUR\nLeo" @ALP@];
-			gcarpentier [label = "Carpentier\nGabin"];
-			cmarchon [label = <MARCHON<BR/>Côme<BR/><I>Robotech(VP)</I>>];
-			ldelaby [label = "DELABY\nLorette" @MILLE@];
-			hngowet [label = "NGOWET LOUEMBET\nHyacinthe Steven"];
-			jeriss [label = "RISS\nJean-Etienne"];
-			mrdabira [label = "DABIRA \nMichel Renaud"];
-			oahmedabdi [label = "AHMED ABDI\nOumoulminine"];
-        }
-
-        boberson -> ebouali [penwidth=2 color = "#f05050" weight = 3.0];
-		rduhamel -> ldufour [weight = 2.0];
-		esorais -> gcarpentier[weight = 3.0];
-		tpaumas -> cmarchon[weight = 2.0];
-		bisabelle -> ldelaby[weight = 2.0];
-		
-    }
-///////////////////////
-// ---- ALTERNANTS ---- 
-///////////////////////
     subgraph cluster_SE2A {
 		label = "SE2A";
 		fillcolor = "#F6B0B0";
-
 		{ rank = "same";//2017
 			blank1 [color = "#F6B0B0" fillcolor = "#F6B0B0" fontcolor = "#F6B0B0"]; // les BLANK servent à mettre en forme le graphique sinon tout est décalé
 		}
@@ -546,7 +441,7 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 		}
 		blank2->blank3[penwidth=2 color = "invis"];
 		{ rank = "same";//2021
-			bertillesor	[label = <SORIN<BR/>Bertille<BR/><I>Respo Com</I>> @BDE@ penwidth=4 color = "blue"];
+			bertillesor	[label = <SORIN<BR/>Bertille<BR/><I>Respo Com</I>> fillcolor="#f05050" penwidth=4 color = "blue"];
 			guillaumeherb	[label = "HERBOMEL\nGuillaume"];
 			nathancoulon	[label = "COULON\nNathan"];
 		}
@@ -555,7 +450,7 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 		{ rank = "same";//2022
 			leavicio	[label = "VICIOT\nLéa"];
 			nicolaserc	[label = "ERCEAU\nNicolas"];
-			thomasobl	[label = <OBLED<BR/>Thomas<BR/><I>Partenariats/Goodies</I>> @BDE@ penwidth=4 color="deeppink"];
+			thomasobl	[label = <OBLED<BR/>Thomas<BR/><I>Partenariats/Goodies</I>> fillcolor="#f05050" penwidth=4 color="deeppink"];
 		}
 		bertillesor -> thomasobl [penwidth=2 color = "#f05050"];
 		guillaumeherb -> leavicio;
@@ -570,8 +465,8 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 		thomasobl -> adjonard;
 
 		{ rank = "same";//2024
-			remideteve	[label=<Detève<BR/>Rémi<BR/><I>Vice-Président Externe</I>> @BDE@ penwidth=4 color="yellow"];
-			martinserg	[label=<Sergeant<BR/>Martin<BR/><I>Respo Alternants</I>> @BDE@ penwidth=4 color="yellow"];
+			remideteve	[label=<Detève<BR/>Rémi<BR/><I>Vice-Président Externe</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
+			martinserg	[label=<Sergeant<BR/>Martin<BR/><I>Respo Alternants</I>> fillcolor="#f05050" penwidth=4 color="yellow"];
 			smarolleau	[label = "MAROLLEAU\nSimon"];
 			faridlazou  [label ="LAZOUACHE\nFarid"];
 		}
@@ -588,7 +483,7 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 
         { rank="same";//2026
 			tess 			[color = "#F6B0B0" fillcolor = "#F6B0B0" fontcolor = "#F6B0B0"];
-// 			akerhasco  [label = <KERHASCOËT<BR/>Arthur<BR/><I>Respo Inté/Events</I><BR/>SE> @BDE@ penwidth=4 color="green"];
+// 			akerhasco  [label = <KERHASCOËT<BR/>Arthur<BR/><I>Respo Inté/Events</I><BR/>SE> fillcolor="#f05050" penwidth=4 color="green"];
 		}
 		juliettec -> tess  [penwidth=2 color = "invis"];
 
@@ -596,49 +491,20 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
  			hzekri	[label ="ZEKRI\nHossam"];
  			rponche [label ="PONCHE\nRomain"];
  			lbusiere	[label ="BUSIERE\nLouis"];
-			blank2028 [color = "invis" fillcolor = "invis" fontcolor = "invis"];
  		}
  		akerhasco -> hzekri [style = "dashed"];
  		jwacquet ->  rponche [style = "dashed"];
  		pcasimiri -> lbusiere [style = "dashed"];
  		tess -> hzekri [penwidth=2 color = "invis"];
 	}
-	
-	subgraph cluster_EIF2A {
-		label = "EIF2A";
-		fillcolor = "#e7905e";
-
-		{ rank="same";//2028
- 			jbrugot	[label =<BRUGOT<BR/>Jules<BR/><I>Prévention / DD</I>> @BDE@ @NEAN@];
- 			flament	[label ="FLAMENT\n "];
-			endjakou [label ="NDJAKOU KEMAYOU\nEnrique Alex"];
- 			kwadoux	[label ="WADOUX\nKylian"];
- 			mkane	[label ="KANE\nSokhna Maty"];
- 		}
-		mkane -> kwadoux -> endjakou -> flament -> jbrugot [style=invis weight = 10.0];
- 		rduhamel -> jbrugot [style = "dashed" penwidth=2 color = "#f05050"];
- 		#nc -> lbusiere [style = "dashed"];
- 		eperdrix -> flament [style = "dashed"];
-		blank2028 -> flament[weight=9.0 color="invis"];
-	}
-
-///////////////////////
-// ---- PROMOS ---- 
-///////////////////////
-
 	subgraph cluster_promos {
 		label = "Promos";
 		penwidth = 0;
 		color = none;
 		node [shape = none];
 
-		"2017" -> "2018" -> "2020" -> "2021" -> "2022" -> "2023" -> "2024" -> "2025" -> "2026" -> "2027"->"2028";
+		"2017" -> "2018" -> "2020" -> "2021" -> "2022" -> "2023" -> "2024" -> "2025" -> "2026" -> "2027";
 	}
-
-///////////////////////
-// ---- LEGENDE ---- 
-///////////////////////
-
 	 subgraph cluster_legende {
 		label = "Légende";
 		fillcolor = none;
@@ -646,8 +512,8 @@ cremaschi	[label = <CREMASCHI<BR/>Guillaume<BR/><I>Inté/Events<BR/>4L'</I>> fil
 		leg_parrain	[label = "Parrain"];
 		leg_fillot	[label = "Fillot"];
 		leg_fillotadop	[label = "Fillot Adoptif"];
-		leg_BDE		[label = <Membre BDE<BR/><I>Poste</I>> @BDE@];
-		leg_prez	[label = <Président de club<BR/><I>Club</I>> @PREZ@];
+		leg_BDE		[label = <Membre BDE<BR/><I>Poste</I>> fillcolor="#f05050"];
+		leg_prez	[label = <Président de club<BR/><I>Club</I>> fillcolor="yellow"];
 		leg_listeux	[label = "Listeux\n\n(Couleur du tour\n = couleur de la liste)" penwidth=4 color="red"];
 
 		leg_parrain -> leg_fillot;
